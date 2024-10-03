@@ -21,7 +21,7 @@ const Projects = () => {
                 Link to Project
               </a>
             </div>
-            <div style={{textAlign:"right"}}>
+            <div className="second-job">
               <h3 className="text-2xl font-bold">E-Commerce Platform</h3>
               <p>Technologies: React.js, Node.js, MongoDB, Stripe API</p>
               <p>

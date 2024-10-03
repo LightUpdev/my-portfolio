@@ -18,10 +18,8 @@ const Experience = () => {
                 <li>Built REST APIs and integrated third-party services.</li>
               </ul>
             </div>
-            <div style={{textAlign:"right"}}>
-              <h3 className="text-2xl font-bold">
-                MERN Stack Developer
-              </h3>
+            <div className="second-job">
+              <h3 className="text-2xl font-bold">MERN Stack Developer</h3>
               <p className="text-lg">Sep 2023 - Present</p>
               <ul>
                 <li>Developed a full-stack employee management system...</li>

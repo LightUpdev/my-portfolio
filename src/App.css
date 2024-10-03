@@ -1,32 +1,83 @@
 h2 {
   text-align: center;
 }
+
 .about-me {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
+.about-me .img {
+  margin: 20px auto;
+}
 .about-me .img img {
-  width: 250px;
+  width: 280px;
   border-radius: 30px;
 }
 .about-me .about-me-text {
-  width: 50%;
+  text-align: center;
+  padding: 20px;
 }
 .work-experience {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+.work-experience div{
+  margin: 1.5rem auto;
 }
 .text-primary {
   color: blue;
 }
 .project {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.project div{
+  margin: 1.5rem auto;
 }
 
 #contact {
   text-align: center;
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px; /* Adjust font size for tablets */
+  }
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .about-me .img img {
+    width: 250px;
+    border-radius: 30px;
+  }
+  .about-me .about-me-text {
+    width: 50%;
+    text-align: left;
+    margin-left: 3rem;
+  }
+  .work-experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+
+  }
+  .project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+  .second-job {
+    text-align: right;
+  }
 }
