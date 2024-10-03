@@ -14,6 +14,8 @@ Welcome to the repository of **Lenity Stephen's Portfolio**. This project showca
   - [Installation](#installation)
     - [Prerequisites](#prerequisites)
     - [Steps](#steps)
+- [my-portfolio](#my-portfolio)
+- [my-portfolio](#my-portfolio-1)
 
 ## Live Demo
 
@@ -49,6 +51,6 @@ Make sure you have **Node.js** installed on your computer. You can download it f
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio-repo.git
+   git clone https://github.com/LightUpdev/your-portfolio.git
 # my-portfolio
 # my-portfolio
