@@ -1,0 +1,32 @@
+h2 {
+  text-align: center;
+}
+.about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-me .img img {
+  width: 250px;
+  border-radius: 30px;
+}
+.about-me .about-me-text {
+  width: 50%;
+}
+.work-experience {
+  display: flex;
+  justify-content: space-around;
+}
+.text-primary {
+  color: blue;
+}
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#contact {
+  text-align: center;
+}
